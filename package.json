@@ -1,0 +1,42 @@
+{
+  "name": "@serverlesshq/nodejs",
+  "version": "1.0.12",
+  "description": "A Node.js client for working with serverlesshq.com",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serverlesshq/nodejs.git"
+  },
+  "keywords": [
+    "serverless",
+    "background functions",
+    "asynchronous tasks",
+    "queue",
+    "cron",
+    "scheduler",
+    "websockets",
+    "events"
+  ],
+  "homepage": "https://www.serverlesshq.com",
+  "author": "John Cantrell <johncantrell97@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "superjson": "^1.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/serverlesshq/nodejs/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/node-fetch": "^2.5.7",
+    "typescript": "^4.0.3"
+  }
+}
